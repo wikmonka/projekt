@@ -45,18 +45,18 @@ public:
             // stwórz lub zaktualizuj pensjê
             pensje[login] = Pensja(umowa, podstawa, premia, mnoznik, min, max);
 
+            // POPRAWIONE TWORZENIE OBIEKTÓW
             if (typ == "Pracownik") {
-                Pensja& ref = pensje[login];
                 uzytkownicy.push_back(std::make_unique<Pracownik>(
-                    imie, nazwisko, stanowisko, login, haslo, ref, umowa));
+                    imie, nazwisko, stanowisko, login, haslo, &pensje[login], umowa));
             }
             else if (typ == "Kadry") {
                 uzytkownicy.push_back(std::make_unique<Kadry>(
-                    imie, nazwisko, stanowisko, login, haslo, pensje[login]));
+                    imie, nazwisko, stanowisko, login, haslo, &pensje[login]));
             }
             else if (typ == "Administrator") {
                 uzytkownicy.push_back(std::make_unique<Administrator>(
-                    imie, nazwisko, stanowisko, login, haslo, pensje[login]));
+                    imie, nazwisko, stanowisko, login, haslo, &pensje[login]));
             }
         }
 

@@ -55,13 +55,7 @@ int main() {
     std::cout << "Zamykanie programu...\n";
 
     // zapis aktualnych pensji do pliku
-    std::map<std::string, Pensja> aktualnePensje;
-    for (const auto& u : uzytkownicy) {
-        if (auto* p = dynamic_cast<Pracownik*>(u.get())) {
-            aktualnePensje[p->getLogin()] = p->getPensja();
-        }
-    }
-    PensjaManager::zapiszPensje(aktualnePensje);
+    PensjaManager::zapiszPensje(bazaPensji);
 
     return 0;
 }

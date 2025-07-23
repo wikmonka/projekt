@@ -1,4 +1,3 @@
-// === Pracownik.h ===
 #pragma once
 
 #include "Zatrudnieni.h"
@@ -15,9 +14,9 @@ public:
 
     Pracownik(const std::string& imie, const std::string& nazwisko,
         const std::string& stanowisko, const std::string& login,
-        const std::string& haslo, Pensja* pensjaRef,
+        const std::string& haslo, Pensja* pensja,
         const std::string& umowa)
-        : Zatrudnieni(imie, nazwisko, stanowisko, login, haslo, pensjaRef), umowa(umowa) {}
+        : Zatrudnieni(imie, nazwisko, stanowisko, login, haslo, pensja), umowa(umowa) {}
 
     void obsluzWniosek(Wniosek& wniosek) override {
         wniosek.ustawStatus("oczekuj¹cy");
@@ -42,8 +41,12 @@ public:
         }
     }
 
+    // --- POPRAWKA ---
+    // Wersja pozwalaj¹ca na modyfikacjê pensji
     Pensja& getPensja() { return *pensja; }
+    // Wersja tylko do odczytu (dla sta³ych obiektów)
     const Pensja& getPensja() const { return *pensja; }
+    // --- KONIEC POPRAWKI ---
 
     void pokazAktywnosc() override {
         std::cout << "[AKTYWNOŒÆ] " << login << ": Zalogowano jako PRACOWNIK.\n";

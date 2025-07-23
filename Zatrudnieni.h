@@ -19,9 +19,10 @@ protected:
 public:
     Zatrudnieni() = default;
 
+    // POPRAWIONY KONSTRUKTOR
     Zatrudnieni(const std::string& imie, const std::string& nazwisko,
         const std::string& stanowisko, const std::string& login,
-        const std::string& haslo, const Pensja& pensja)
+        const std::string& haslo, Pensja* pensja)
         : imie(imie), nazwisko(nazwisko), stanowisko(stanowisko),
         login(login), haslo(haslo), pensja(pensja) {}
 
@@ -36,7 +37,9 @@ public:
     std::string getImie() const { return imie; }
     std::string getNazwisko() const { return nazwisko; }
     std::string getStanowisko() const { return stanowisko; }
-    Pensja& getPensja() { return pensja; }
+
+    // POPRAWIONY GETTER
+    Pensja& getPensja() { return *pensja; }
 
     // Wirtualna metoda – mo¿e byæ przes³oniêta, ale ma domyœln¹ implementacjê
     virtual void pokazAktywnosc() {
@@ -56,5 +59,4 @@ public:
             }
         }
     }
-
 };

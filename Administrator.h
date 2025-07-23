@@ -11,9 +11,10 @@ class Administrator : public Zatrudnieni {
 public:
     Administrator() = default;
 
+    // POPRAWIONY KONSTRUKTOR
     Administrator(const std::string& imie, const std::string& nazwisko,
         const std::string& stanowisko, const std::string& login,
-        const std::string& haslo, const Pensja& pensja)
+        const std::string& haslo, Pensja* pensja)
         : Zatrudnieni(imie, nazwisko, stanowisko, login, haslo, pensja) {}
 
     void obsluzWniosek(Wniosek& wniosek) override {
