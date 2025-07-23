@@ -1,0 +1,3 @@
+Pracownik;Jan;Kowalski;operator;jkowal;1234;UoP;100;1.0;200;2000;8000
+Kadry;Anna;Nowak;kadrowa;anowak;haslo123;UoP;120;1.0;0;3000;9000
+Administrator;Adam;Admin;admin;admin;adminpass;B2B;150;1.0;0;4000;12000
