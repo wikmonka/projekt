@@ -42,10 +42,19 @@ public:
             std::getline(ss, tmp, ';'); min = std::stod(tmp);
             std::getline(ss, tmp, ';'); max = std::stod(tmp);
 
+            // --- POCZ¥TEK POPRAWKI ---
+            // ZACHOWAJ DNI PRACY, JEŒLI ISTNIEJ¥
+            int obecneDniPracy = 0;
+            if (pensje.count(login)) {
+                obecneDniPracy = pensje[login].getDniPracy();
+            }
+
             // stwórz lub zaktualizuj pensjê
             pensje[login] = Pensja(umowa, podstawa, premia, mnoznik, min, max);
+            // PRZYWRÓÆ WCZEŒNIEJ ZAPISANE DNI PRACY
+            pensje[login].ustawDniPracy(obecneDniPracy);
+            // --- KONIEC POPRAWKI ---
 
-            // POPRAWIONE TWORZENIE OBIEKTÓW
             if (typ == "Pracownik") {
                 uzytkownicy.push_back(std::make_unique<Pracownik>(
                     imie, nazwisko, stanowisko, login, haslo, &pensje[login], umowa));

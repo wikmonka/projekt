@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\projekt\\projekt\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{68B0B1D7-9D21-4AA6-94E3-EACF8CC91CF6}|projekt_wm.vcxproj|C:\\projekt\\projekt\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{68B0B1D7-9D21-4AA6-94E3-EACF8CC91CF6}|projekt_wm.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68B0B1D7-9D21-4AA6-94E3-EACF8CC91CF6}|projekt_wm.vcxproj|C:\\projekt\\projekt\\FileLoader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{68B0B1D7-9D21-4AA6-94E3-EACF8CC91CF6}|projekt_wm.vcxproj|solutionrelative:FileLoader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{68B0B1D7-9D21-4AA6-94E3-EACF8CC91CF6}|projekt_wm.vcxproj|C:\\projekt\\projekt\\Pracownik.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{68B0B1D7-9D21-4AA6-94E3-EACF8CC91CF6}|projekt_wm.vcxproj|solutionrelative:Pracownik.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -15,16 +23,8 @@
       "RelativeMoniker": "D:0:0:{68B0B1D7-9D21-4AA6-94E3-EACF8CC91CF6}|projekt_wm.vcxproj|solutionrelative:ZadanieManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68B0B1D7-9D21-4AA6-94E3-EACF8CC91CF6}|projekt_wm.vcxproj|C:\\projekt\\projekt\\FileLoader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{68B0B1D7-9D21-4AA6-94E3-EACF8CC91CF6}|projekt_wm.vcxproj|solutionrelative:FileLoader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{68B0B1D7-9D21-4AA6-94E3-EACF8CC91CF6}|projekt_wm.vcxproj|C:\\projekt\\projekt\\Administrator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{68B0B1D7-9D21-4AA6-94E3-EACF8CC91CF6}|projekt_wm.vcxproj|solutionrelative:Administrator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68B0B1D7-9D21-4AA6-94E3-EACF8CC91CF6}|projekt_wm.vcxproj|C:\\projekt\\projekt\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{68B0B1D7-9D21-4AA6-94E3-EACF8CC91CF6}|projekt_wm.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68B0B1D7-9D21-4AA6-94E3-EACF8CC91CF6}|projekt_wm.vcxproj|C:\\projekt\\projekt\\Zatrudnieni.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -38,24 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "FileLoader.h",
               "DocumentMoniker": "C:\\projekt\\projekt\\FileLoader.h",
               "RelativeDocumentMoniker": "FileLoader.h",
               "ToolTip": "C:\\projekt\\projekt\\FileLoader.h",
               "RelativeToolTip": "FileLoader.h",
-              "ViewState": "AgIAADgAAAAAAAAAAAAuwEAAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-07-23T16:19:06.124Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Administrator.h",
               "DocumentMoniker": "C:\\projekt\\projekt\\Administrator.h",
               "RelativeDocumentMoniker": "Administrator.h",
@@ -63,12 +63,11 @@
               "RelativeToolTip": "Administrator.h",
               "ViewState": "AgIAACsAAAAAAAAAAAAuwDMAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-07-23T16:18:14.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T16:18:14.711Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ZadanieManager.h",
               "DocumentMoniker": "C:\\projekt\\projekt\\ZadanieManager.h",
               "RelativeDocumentMoniker": "ZadanieManager.h",
@@ -76,12 +75,11 @@
               "RelativeToolTip": "ZadanieManager.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-07-23T16:18:11.91Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T16:18:11.91Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Kadry.h",
               "DocumentMoniker": "C:\\projekt\\projekt\\Kadry.h",
               "RelativeDocumentMoniker": "Kadry.h",
@@ -89,18 +87,17 @@
               "RelativeToolTip": "Kadry.h",
               "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-07-23T16:17:30.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T16:17:30.817Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Pracownik.h",
               "DocumentMoniker": "C:\\projekt\\projekt\\Pracownik.h",
               "RelativeDocumentMoniker": "Pracownik.h",
               "ToolTip": "C:\\projekt\\projekt\\Pracownik.h",
               "RelativeToolTip": "Pracownik.h",
-              "ViewState": "AgIAACQAAAAAAAAAAAAiwDUAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwBwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-07-23T16:15:51.871Z",
               "EditorCaption": ""
@@ -115,18 +112,17 @@
               "RelativeToolTip": "Zatrudnieni.h",
               "ViewState": "AgIAADUAAAAAAAAAAAAuwD0AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-07-23T16:14:03.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T16:14:03.946Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\projekt\\projekt\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\projekt\\projekt\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAADQAAAAAAAAAAAAuwDwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-07-23T16:09:51.618Z",
               "EditorCaption": ""

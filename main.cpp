@@ -11,8 +11,13 @@
 #include "SystemWnioskow.h"
 #include "FileLoader.h"
 #include "PensjaManager.h"
+#include <windows.h>
 
 int main() {
+
+	SetConsoleCP(1250); // Ustawienie kodowania konsoli na CP1250
+	SetConsoleOutputCP(1250); // Ustawienie kodowania konsoli na CP1250
+
     std::vector<std::unique_ptr<Zatrudnieni>> uzytkownicy;
     std::map<std::string, Pensja> bazaPensji = PensjaManager::wczytajPensje();
 
