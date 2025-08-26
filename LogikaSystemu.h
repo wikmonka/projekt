@@ -53,7 +53,6 @@ public:
             }
             else if (wybor == 2) {
                 std::string typ, tresc;
-                std::cin.ignore();
                 std::cout << "Typ wniosku: ";
                 std::getline(std::cin, typ);
                 std::cout << "Treœæ wniosku: ";
@@ -103,7 +102,6 @@ public:
                 WniosekManager::nadpiszWszystkie(lista);
             }
             else if (wybor == 2) {
-                std::cin.ignore();
                 std::string login, tresc;
                 std::cout << "Login pracownika: ";
                 std::getline(std::cin, login);
@@ -113,7 +111,6 @@ public:
                 std::cout << "[KADRY] Zadanie zapisane.\n";
             }
             else if (wybor >= 3 && wybor <= 6) {
-                std::cin.ignore();
                 std::string login;
                 std::cout << "Login pracownika: ";
                 std::getline(std::cin, login);
@@ -189,7 +186,6 @@ public:
                 WniosekManager::nadpiszWszystkie(lista);
             }
             else if (wybor == 3) {
-                std::cin.ignore();
                 std::string tresc;
                 std::cout << "Treœæ komunikatu (globalnego): ";
                 std::getline(std::cin, tresc);
@@ -197,7 +193,6 @@ public:
                 std::cout << "[ADMIN] Komunikat zosta³ zapisany.\n";
             }
             else if (wybor == 4) {
-                std::cin.ignore();
                 std::string login, tresc;
                 std::cout << "Login pracownika: ";
                 std::getline(std::cin, login);
